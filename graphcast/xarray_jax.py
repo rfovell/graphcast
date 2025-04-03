@@ -104,7 +104,8 @@ from typing import Any, Callable, Hashable, Iterator, Mapping, Optional, Union, 
 import jax
 import jax.numpy as jnp
 import numpy as np
-import tree
+#import tree
+from graphcast import xarray_tree as tree
 import xarray
 
 
